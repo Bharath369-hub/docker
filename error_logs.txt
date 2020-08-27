@@ -1,0 +1,298 @@
+Status: Downloaded newer image for curlimages/curl:latest
+Creating dartapp_couchserver_1 ... done
+Creating dartapp_initializer_1 ... done
+Creating dartapp_web_1         ... done
+Creating ng01                  ... done
+Attaching to dartapp_couchserver_1, dartapp_initializer_1, dartapp_web_1, ng01
+couchserver_1  | [info] 2020-08-27T22:08:53.123404Z nonode@nohost <0.11.0> -------- Application couch_log started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:53.139111Z nonode@nohost <0.11.0> -------- Application folsom started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:53.240731Z nonode@nohost <0.11.0> -------- Application couch_stats started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:53.241151Z nonode@nohost <0.11.0> -------- Application khash started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:53.258359Z nonode@nohost <0.11.0> -------- Application couch_event started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:53.258556Z nonode@nohost <0.11.0> -------- Application hyper started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:53.272240Z nonode@nohost <0.11.0> -------- Application ibrowse started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:53.285561Z nonode@nohost <0.11.0> -------- Application ioq started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:53.285752Z nonode@nohost <0.11.0> -------- Application mochiweb started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:53.295266Z nonode@nohost <0.216.0> -------- Preflight check: Asserting Admin Account
+couchserver_1  |
+couchserver_1  | [info] 2020-08-27T22:08:53.302045Z nonode@nohost <0.216.0> -------- Apache CouchDB 3.1.0 is starting.
+couchserver_1  |
+couchserver_1  | [info] 2020-08-27T22:08:53.302140Z nonode@nohost <0.217.0> -------- Starting couch_sup
+couchserver_1  | [notice] 2020-08-27T22:08:53.350747Z nonode@nohost <0.82.0> -------- config: [admins] helll set to -pbkdf2-9cb361d6732f239125c8537c68241f9132984ae5,30b9f4ffd740363584433d64833a9ded,10 for reason nil
+couchserver_1  | [info] 2020-08-27T22:08:53.474491Z nonode@nohost <0.216.0> -------- Apache CouchDB has started. Time to relax.
+couchserver_1  |
+couchserver_1  | [info] 2020-08-27T22:08:53.486053Z nonode@nohost <0.11.0> -------- Application couch started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:53.486472Z nonode@nohost <0.11.0> -------- Application ets_lru started on node nonode@nohost
+couchserver_1  | [notice] 2020-08-27T22:08:53.521939Z nonode@nohost <0.250.0> -------- rexi_server : started servers
+couchserver_1  | [notice] 2020-08-27T22:08:53.531187Z nonode@nohost <0.254.0> -------- rexi_buffer : started servers
+couchserver_1  | [info] 2020-08-27T22:08:53.531511Z nonode@nohost <0.11.0> -------- Application rexi started on node nonode@nohost
+couchserver_1  | [notice] 2020-08-27T22:08:53.850106Z nonode@nohost <0.284.0> -------- mem3_reshard_dbdoc start init()
+couchserver_1  | [notice] 2020-08-27T22:08:53.869961Z nonode@nohost <0.286.0> -------- mem3_reshard start init()
+couchserver_1  | [notice] 2020-08-27T22:08:53.870117Z nonode@nohost <0.287.0> -------- mem3_reshard db monitor <0.287.0> starting
+couchserver_1  | [notice] 2020-08-27T22:08:53.877668Z nonode@nohost <0.286.0> -------- mem3_reshard starting reloading jobs
+couchserver_1  | [notice] 2020-08-27T22:08:53.877781Z nonode@nohost <0.286.0> -------- mem3_reshard finished reloading jobs
+couchserver_1  | [info] 2020-08-27T22:08:53.881104Z nonode@nohost <0.11.0> -------- Application mem3 started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:53.881452Z nonode@nohost <0.11.0> -------- Application fabric started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:53.977566Z nonode@nohost <0.11.0> -------- Application chttpd started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.030179Z nonode@nohost <0.11.0> -------- Application couch_index started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.030405Z nonode@nohost <0.11.0> -------- Application couch_mrview started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.030812Z nonode@nohost <0.11.0> -------- Application couch_plugins started on node nonode@nohost
+couchserver_1  | [notice] 2020-08-27T22:08:54.052106Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:08:54.052526Z nonode@nohost emulator -------- Error in process <0.317.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [info] 2020-08-27T22:08:54.152636Z nonode@nohost <0.11.0> -------- Application couch_replicator started on node nonode@nohost
+web_1          | Traceback (most recent call last):
+web_1          |   File "./webapp/server.py", line 2, in <module>
+web_1          |     from webapp.wsgi import application
+web_1          |   File "/code/webapp/webapp/wsgi.py", line 16, in <module>
+web_1          |     application = get_wsgi_application()
+web_1          |   File "/usr/local/lib/python3.6/site-packages/django/core/wsgi.py", line 12, in get_wsgi_application
+web_1          |     django.setup(set_prefix=False)
+web_1          |   File "/usr/local/lib/python3.6/site-packages/django/__init__.py", line 24, in setup
+web_1          |     apps.populate(settings.INSTALLED_APPS)
+web_1          |   File "/usr/local/lib/python3.6/site-packages/django/apps/registry.py", line 114, in populate
+web_1          |     app_config.import_models()
+web_1          |   File "/usr/local/lib/python3.6/site-packages/django/apps/config.py", line 211, in import_models
+web_1          |     self.models_module = import_module(models_module_name)
+web_1          |   File "/usr/local/lib/python3.6/importlib/__init__.py", line 126, in import_module
+web_1          |     return _bootstrap._gcd_import(name[level:], package, level)
+web_1          |   File "/code/webapp/webappmain/models.py", line 7, in <module>
+couchserver_1  | [info] 2020-08-27T22:08:54.179966Z nonode@nohost <0.11.0> -------- Application couch_peruser started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.213419Z nonode@nohost <0.11.0> -------- Application ddoc_cache started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.239652Z nonode@nohost <0.11.0> -------- Application dreyfus started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.275981Z nonode@nohost <0.11.0> -------- Application global_changes started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.276011Z nonode@nohost <0.11.0> -------- Application jiffy started on node nonode@nohost
+ng01           | /docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration
+ng01           | /docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/
+ng01           | /docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh
+ng01           | 10-listen-on-ipv6-by-default.sh: error: /etc/nginx/conf.d/default.conf is not a file or does not exist
+ng01           | /docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh
+ng01           | /docker-entrypoint.sh: Configuration complete; ready for start up
+couchserver_1  | [info] 2020-08-27T22:08:54.300002Z nonode@nohost <0.11.0> -------- Application jwtf started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.324971Z nonode@nohost <0.11.0> -------- Application ken started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.357610Z nonode@nohost <0.11.0> -------- Application mango started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.376792Z nonode@nohost <0.11.0> -------- Application setup started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.427416Z nonode@nohost <0.11.0> -------- Application smoosh started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.427486Z nonode@nohost <0.11.0> -------- Application snappy started on node nonode@nohost
+couchserver_1  | [info] 2020-08-27T22:08:54.427514Z nonode@nohost <0.11.0> -------- Application recon started on node nonode@nohost
+web_1          |     db = couch[settings.TABLE]
+web_1          |   File "/usr/local/lib/python3.6/site-packages/couchdb/client.py", line 145, in __getitem__
+web_1          |     db.resource.head() # actually make a request to the database
+web_1          |   File "/usr/local/lib/python3.6/site-packages/couchdb/http.py", line 557, in head
+web_1          |     return self._request('HEAD', path, headers=headers, **params)
+web_1          |   File "/usr/local/lib/python3.6/site-packages/couchdb/http.py", line 592, in _request
+web_1          |     credentials=self.credentials)
+web_1          |   File "/usr/local/lib/python3.6/site-packages/couchdb/http.py", line 423, in request
+couchserver_1  | [notice] 2020-08-27T22:08:55.577653Z nonode@nohost <0.300.0> f7f3e9400f couchserver:5984 192.168.48.3 helll HEAD /test 404 ok 82
+web_1          |     raise ResourceNotFound(error)
+web_1          | couchdb.http.ResourceNotFound
+dartapp_web_1 exited with code 1
+ng01           | 2020/08/27 22:08:57 [emerg] 1#1: host not found in upstream "web:8000" in /etc/nginx/conf.d/django.conf:3
+ng01           | nginx: [emerg] host not found in upstream "web:8000" in /etc/nginx/conf.d/django.conf:3
+couchserver_1  | [notice] 2020-08-27T22:08:59.054092Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:08:59.055044Z nonode@nohost emulator -------- Error in process <0.456.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:08:59.075572Z nonode@nohost <0.338.0> -------- couch_replicator_clustering : cluster stable
+couchserver_1  | [notice] 2020-08-27T22:08:59.115708Z nonode@nohost <0.348.0> -------- Started replicator db changes listener <0.457.0>
+couchserver_1  | [info] 2020-08-27T22:08:59.132420Z nonode@nohost <0.459.0> -------- open_result error {not_found,no_db_file} for _replicator
+ng01 exited with code 1
+couchserver_1  | [notice] 2020-08-27T22:09:04.055252Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:09:04.055496Z nonode@nohost emulator -------- Error in process <0.511.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+initializer_1  |   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+initializer_1  |                                  Dload  Upload   Total   Spent    Left  Speed
+couchserver_1  | [notice] 2020-08-27T22:09:08.522262Z nonode@nohost <0.250.0> -------- rexi_server : cluster stable
+couchserver_1  | [notice] 2020-08-27T22:09:08.522882Z nonode@nohost <0.254.0> -------- rexi_buffer : cluster stable
+couchserver_1  | [notice] 2020-08-27T22:09:09.056975Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:09:09.057692Z nonode@nohost emulator -------- Error in process <0.544.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: couchserver
+dartapp_initializer_1 exited with code 6
+couchserver_1  | [notice] 2020-08-27T22:09:14.059654Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:09:14.060903Z nonode@nohost emulator -------- Error in process <0.593.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:09:19.061846Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:09:19.062534Z nonode@nohost emulator -------- Error in process <0.626.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:09:24.063661Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:09:24.064265Z nonode@nohost emulator -------- Error in process <0.675.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:09:29.065133Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:09:29.066394Z nonode@nohost emulator -------- Error in process <0.708.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:09:34.066245Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:09:34.066535Z nonode@nohost emulator -------- Error in process <0.757.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:09:39.068876Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:09:39.070593Z nonode@nohost emulator -------- Error in process <0.790.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:09:44.070237Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:09:44.070484Z nonode@nohost emulator -------- Error in process <0.839.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:09:49.071889Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:09:49.072829Z nonode@nohost emulator -------- Error in process <0.872.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:09:54.073496Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:09:54.074333Z nonode@nohost emulator -------- Error in process <0.921.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:09:59.161907Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:09:59.162486Z nonode@nohost emulator -------- Error in process <0.954.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:10:04.164545Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:10:04.166590Z nonode@nohost emulator -------- Error in process <0.1006.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:10:05.210165Z nonode@nohost <0.991.0> 37a4f77218 localhost:5984 192.168.48.1 undefined GET /_utils/ 304 ok 30
+couchserver_1  | [notice] 2020-08-27T22:10:05.255688Z nonode@nohost <0.991.0> 89197dcd64 localhost:5984 192.168.48.1 undefined GET /_utils/dashboard.assets/css/styles.cba9030469264f5dd736.css 304 ok 4
+couchserver_1  | [notice] 2020-08-27T22:10:05.780109Z nonode@nohost <0.82.0> -------- config: [couchdb] uuid set to 513b5a9ffb3880231b2bb32df66c522f for reason nil
+couchserver_1  | [notice] 2020-08-27T22:10:05.845818Z nonode@nohost <0.993.0> 29523841c4 localhost:5984 192.168.48.1 undefined GET /_session 200 ok 1
+couchserver_1  | [notice] 2020-08-27T22:10:05.856205Z nonode@nohost <0.990.0> ce2735bcd9 localhost:5984 192.168.48.1 undefined GET / 200 ok 75
+couchserver_1  | [notice] 2020-08-27T22:10:05.856719Z nonode@nohost <0.991.0> 1f213115e4 localhost:5984 192.168.48.1 undefined GET / 200 ok 77
+couchserver_1  | [notice] 2020-08-27T22:10:05.858365Z nonode@nohost <0.992.0> 898e51cc53 localhost:5984 192.168.48.1 undefined GET / 200 ok 1
+couchserver_1  | [notice] 2020-08-27T22:10:06.060522Z nonode@nohost <0.992.0> f9a9715561 localhost:5984 192.168.48.1 undefined GET /_session 200 ok 1
+couchserver_1  | [notice] 2020-08-27T22:10:09.166126Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:10:09.167145Z nonode@nohost emulator -------- Error in process <0.1039.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:10:13.069535Z nonode@nohost <0.82.0> -------- config: [couch_httpd_auth] secret set to 28bfbe7254797b285d3057385ff82b81 for reason nil
+couchserver_1  | [notice] 2020-08-27T22:10:13.086867Z nonode@nohost <0.1056.0> 4dcaccb15c localhost:5984 192.168.48.1 undefined POST /_session 200 ok 19
+couchserver_1  | [notice] 2020-08-27T22:10:13.152531Z nonode@nohost <0.1056.0> 63f5312977 localhost:5984 192.168.48.1 helll GET /_session 200 ok 1
+couchserver_1  | [notice] 2020-08-27T22:10:13.519190Z nonode@nohost <0.1056.0> 700800bb60 localhost:5984 192.168.48.1 helll GET /_all_dbs 200 ok 293
+couchserver_1  | [notice] 2020-08-27T22:10:13.680036Z nonode@nohost <0.1056.0> 578b73465c localhost:5984 192.168.48.1 helll GET /_all_dbs?startkey=%22%22&endkey=%22%E9%A6%99%22&limit=30 200 ok 18
+couchserver_1  | [notice] 2020-08-27T22:10:14.167497Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:10:14.168022Z nonode@nohost emulator -------- Error in process <0.1099.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:10:19.169738Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:10:19.171084Z nonode@nohost emulator -------- Error in process <0.1133.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:10:24.171812Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:10:24.172489Z nonode@nohost emulator -------- Error in process <0.1181.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:10:29.173794Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:10:29.174578Z nonode@nohost emulator -------- Error in process <0.1215.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:10:34.175711Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:10:34.176226Z nonode@nohost emulator -------- Error in process <0.1263.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:10:39.177168Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:10:39.178277Z nonode@nohost emulator -------- Error in process <0.1297.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:10:44.179107Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:10:44.179737Z nonode@nohost emulator -------- Error in process <0.1345.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:10:49.181210Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:10:49.182672Z nonode@nohost emulator -------- Error in process <0.1379.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:10:54.182492Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:10:54.183248Z nonode@nohost emulator -------- Error in process <0.1428.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:10:59.183891Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:10:59.184849Z nonode@nohost emulator -------- Error in process <0.1462.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:11:04.211646Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:11:04.212139Z nonode@nohost emulator -------- Error in process <0.1510.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:11:09.213302Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:11:09.214336Z nonode@nohost emulator -------- Error in process <0.1547.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:11:14.214508Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:11:14.215120Z nonode@nohost emulator -------- Error in process <0.1595.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:11:19.215818Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:11:19.216704Z nonode@nohost emulator -------- Error in process <0.1629.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:11:24.218360Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:11:24.219562Z nonode@nohost emulator -------- Error in process <0.1677.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:11:29.219258Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:11:29.219619Z nonode@nohost emulator -------- Error in process <0.1711.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:11:34.220992Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:11:34.221682Z nonode@nohost emulator -------- Error in process <0.1759.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:11:39.223016Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:11:39.224004Z nonode@nohost emulator -------- Error in process <0.1793.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:11:44.224289Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:11:44.224643Z nonode@nohost emulator -------- Error in process <0.1841.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:11:49.226751Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:11:49.228003Z nonode@nohost emulator -------- Error in process <0.1875.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:11:54.228958Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:11:54.229817Z nonode@nohost emulator -------- Error in process <0.1923.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:11:59.231792Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:11:59.233663Z nonode@nohost emulator -------- Error in process <0.1957.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:12:04.234434Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:12:04.235656Z nonode@nohost emulator -------- Error in process <0.2005.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:12:09.296795Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:12:09.298973Z nonode@nohost emulator -------- Error in process <0.2039.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:12:14.300127Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:12:14.301857Z nonode@nohost emulator -------- Error in process <0.2090.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:12:19.302268Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:12:19.303351Z nonode@nohost emulator -------- Error in process <0.2124.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:12:24.303543Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:12:24.304131Z nonode@nohost emulator -------- Error in process <0.2172.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:12:29.305049Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:12:29.306273Z nonode@nohost emulator -------- Error in process <0.2206.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:12:34.306626Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:12:34.307152Z nonode@nohost emulator -------- Error in process <0.2254.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+couchserver_1  | [notice] 2020-08-27T22:12:39.307799Z nonode@nohost <0.316.0> -------- chttpd_auth_cache changes listener died because the _users database does not exist. Create the database to silence this notice.
+couchserver_1  | [error] 2020-08-27T22:12:39.308778Z nonode@nohost emulator -------- Error in process <0.2288.0> with exit value:
+couchserver_1  | {database_does_not_exist,[{mem3_shards,load_shards_from_db,"_users",[{file,"src/mem3_shards.erl"},{line,399}]},{mem3_shards,load_shards_from_disk,1,[{file,"src/mem3_shards.erl"},{line,374}]},{mem3_shards,load_shards_from_disk,2,[{file,"src/mem3_shards.erl"},{line,403}]},{mem3_shards,for_docid,3,[{file,"src/mem3_shards.erl"},{line,96}]},{fabric_doc_open,go,3,[{file,"src/fabric_doc_open.erl"},{line,39}]},{chttpd_auth_cache,ensure_auth_ddoc_exists,2,[{file,"src/chttpd_auth_cache.erl"},{line,198}]},{chttpd_auth_cache,listen_for_changes,1,[{file,"src/chttpd_auth_cache.erl"},{line,145}]}]}
+couchserver_1  |
+Gracefully stopping... (press Ctrl+C again to force)
+Stopping dartapp_couchserver_1 ...
+Killing dartapp_couchserver_1  ... done
